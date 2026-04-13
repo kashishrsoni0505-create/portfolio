@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background 0.5s;
+}
+
+.text-info {
+    color: #0dcaf0 !important; /* Neon Cyan */
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #0dcaf0 !important;
+}
+
+.card {
+    border: 1px solid #0dcaf0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(13, 202, 240, 0.5);
+}
